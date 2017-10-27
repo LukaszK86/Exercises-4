@@ -13,7 +13,7 @@ public class Punkt {
     }
 
         void zmienXY() {
-            this.x = x + 3;
+            this.x = x + 913;
             this.y = y + 3;
         }
     int getX() {
