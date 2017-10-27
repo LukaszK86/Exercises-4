@@ -7,7 +7,7 @@ public class Main {
         Punkt punktXY = new Punkt();
         punktXY.zmienXY();
 
-        System.out.println(punktXY.x);
+        System.out.println(punktXY.z);
 
         punktXY.zwiekszXY();
 

@@ -4,25 +4,25 @@ package com.jetbrains;
  * Created by Kuki on 26.05.2017.
  */
 public class Punkt {
-    int x;
+    int z;
     int y;
 
     void zwiekszXY () {
-        x++;
+        z++;
         y++;
     }
 
         void zmienXY() {
-            this.x = x + 3;
+            this.z = z + 100;
             this.y = y + 3;
         }
-    int getX() {
+    int getZ() {
 
-       return x;
+       return z;
     }
 
     void showXY () {
-        System.out.println("X to: " +x + "Y to: " +y);
+        System.out.println("X to: " + z + "Y to: " +y);
     }
 }
 
